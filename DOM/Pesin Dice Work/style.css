@@ -1,0 +1,92 @@
+
+
+/* TAG */
+
+body {
+    background: #dee9ea url(./images/sky.jpg) no-repeat;
+    background-size: cover;
+  
+    font-family: "Indie Flower", cursive;
+    color: black;
+    text-align: center;
+  }
+  
+  h1, h4 {
+    display: inline-block;
+    font-family: 'Lobster', cursive;
+    margin: 30px 10px;
+    text-shadow: 5px 0 #232931;
+    font-size: 5rem;
+    color: #eefafd;
+  }
+  
+  h4{
+    color: #f8c762;
+  }
+  
+  p{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  footer {
+    margin-top: -20px;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #dee9ea;
+  }
+  
+  /* CLASS */
+  
+  .container {
+    margin: 5% auto;
+    text-align: center;
+    width: 90%;
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .winner{
+    display: inline; /* Contain: "Player x Win!" */
+  }
+  
+  .main{
+    display: flex;
+    align-items: center; /* Contain: Player "label", Versus-img and Dice-img */
+    flex-direction: row;
+  }
+  
+  .versus{
+    width: 50px;
+    margin: 0 50px; /* Versus-img */
+  }
+  
+  .img1, .img2 {
+    width: 180px; /* Dices-imgs */
+  }
+  
+  /* ADJUSTMENTS - MOBILE SCREEN */
+  
+  @media screen and (max-width: 800px) {
+    h1, h4 {
+      font-size: 4rem;
+      margin: 10px 10px;
+    }
+  
+    .container {
+      margin: 10% auto;
+    }
+  
+    .main{
+      flex-direction: column;
+    }
+  
+    .versus{
+      margin-top: 20px;
+    }
+  }

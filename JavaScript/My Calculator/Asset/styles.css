@@ -1,0 +1,179 @@
+
+
+#calculator {
+    background: white;
+    width: 340px;
+    height: 550px;
+    margin: 10px auto ;
+    position: relative;
+    top: 40px;
+    border-radius: 10px;
+    border-radius: 20px;
+    box-shadow: -3px 3px 8px 5px black,
+                3px -3px 5px 5px  wheat; 
+
+
+
+}
+
+#result {
+    background: wheat;
+    height: 100px;
+    width: 280px;
+    margin: 10px auto;
+    border-radius: 15px;
+    box-shadow: -3px 3px 8px 2px black,
+                3px -3px 5px 3px  wheat; 
+    position: relative;
+    top: 25px;
+}
+
+#history {
+    text-align: right;
+    margin: 0px auto 5px;
+    padding: 5px;
+    background: white;
+    position: relative;
+    font-weight: bold;
+    color: rgb(161, 155, 146);
+    top: 10px;
+    height: 20px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: -3px 3px 8px 1px black,
+                 3px -3px 3px 1px  white; 
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+#output {
+
+    text-align: right;
+    margin: 20px auto 10px;
+    padding: 10px 5px;
+    background: white;
+    color: black;
+    height: 20px;
+    width: 90%;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    box-shadow: -3px 3px 8px 1px black,
+                 3px -3px 3px 1px  white; 
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+
+
+}
+
+#keyboard {
+    height: 350px;
+    background: wheat;
+    width: 250px;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 15px auto ;
+    position: relative;
+    top: 25px;
+    box-shadow: -3px 3px 8px 2px black,
+                 3px -3px 5px 3px  wheat; 
+
+}
+
+.operator, .number, .empty {
+    float: left;
+    height: 45px;
+    width: 40px;
+    margin: 11px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50%;
+    border-width: 0;
+    box-shadow: -1px 2px 8px 3px black,
+                 4px -3px 3px 2px  white; 
+
+}
+
+.number {
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.operator, .number {
+    cursor: pointer;
+}
+
+
+.operator:active, .number:active {
+    font-size: 8px;
+    color: rgb(99, 99, 145);
+}
+
+
+ .number:hover {
+    background: wheat;
+    color: blue;
+}
+
+.operator:hover {
+    background: rgb(255, 208, 120);
+    color: red;
+
+}
+
+
+
+.operator:focus, .number:focus, .empty:focus {
+    outline: none;
+
+}
+
+.empty{
+background: wheat;
+box-shadow: none;
+}
+
+button:first-child, button:nth-child(2) {
+     font-family: 'Dancing Script', cursive;
+
+}
+
+
+button:nth-child(4) {
+    background: green;
+    font-size: 25px;
+}
+
+button:nth-child(8) {
+    background: purple;
+    font-size: 25px;
+}
+
+button:nth-child(12) {
+    background: pink;
+    font-size: 25px;
+}
+
+button:nth-child(16) {
+    background: yellow;
+    font-size: 25px;
+}
+
+button:nth-child(20) {
+    background: red;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+
+    #container {
+        margin: 0 auto;
+        top: 0;
+        display: flex;
+    }
+    
+    #calculator {
+        margin: 100px auto ;
+    }
+    
+
+}

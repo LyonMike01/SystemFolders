@@ -1,0 +1,31 @@
+/************************Tag Selector************************/
+body {
+    background-color:limegreen;
+  }
+  
+  hr {
+    border-style:none;
+    border-top-style: dotted;
+    border-color:red;
+    border-width: 5px;
+    width: 7%;
+  }
+  h1 {
+    color: black;
+    font-size: 30px;
+}
+
+  h3  {
+    color: blue;
+}
+img:hover {
+    background-color: black;
+}
+
+/************************Class Selector************************/
+.Boss {
+  background-color: green;
+}
+.circular {
+  border-radius: 100%;
+}
